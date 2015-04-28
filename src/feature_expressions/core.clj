@@ -2,10 +2,12 @@
   (:require [feature-expressions.other :refer [foo]]))
 
 (defn -main [& args]
-  (foo "hello"))
+  (foo "kittens"))
 
 (comment
   
   (require 'feature-expressions.core)
+
+  (feature-expressions.core/-main)
 
   )
